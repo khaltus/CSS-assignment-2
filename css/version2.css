@@ -60,19 +60,14 @@ section {
   max-width: 100%;
   box-sizing: border-box;
   width: 600px;
-  margin: 30px;
+  margin: 40px;
 }
 
 .text {
-  background: #fff;
   color: #000;
   padding: 2em;
   font-size: 1em;
   line-height: auto;
-}
-
-h2 {
-  text-align: center;
 }
 
 header {
@@ -100,9 +95,8 @@ nav ul li {
 
 article {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
   margin: 0;
 }
 
